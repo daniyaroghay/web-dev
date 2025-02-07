@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="vol">Volume</label>
+            <input 
+                type="range"
+                name="vol"
+                id="vol"
+                min="0"
+                max="100"
+                step="10"\
+                value="20"
+            />
+        </div>
+        <div>
+            <label>Feedback</label>
+            <textarea 
+                name="feedback" 
+                id="fb"
+                rows="4"
+                cols="12"
+                >
+                
+                
+            </textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

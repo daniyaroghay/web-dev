@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <form action="/server">
+        <h1>Student Form</h1>
+        <hr/>
+        <div>
+            <label for="fstname">First name:</label>
+            <br/>
+            <input 
+                type="text" 
+                placeholder="First name" 
+                minlength="4" maxlength="12"
+                id="fstname"
+            />
+
+            <br/>
+
+            <label for="dadname">Father's name:</label>
+            <br/>
+            <input 
+                type="text" 
+                placeholder="Father's name" 
+                minlength="4" maxlength="12"
+                id="dadname"
+            />
+            <br/>
+
+            <label for="lstname">Last name:</label>
+            <br/>
+            <input 
+                type="text" 
+                placeholder="Last name" 
+                minlength="4" maxlength="14"
+                id="lstname"
+            />
+        </div>
+
+        <div>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option>Course</option>
+                <option>Science</option>
+                <option>Arts</option>
+                <option>Commerce</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="sex">Gender:</label>
+            <br/>
+            <input 
+                type="radio"
+                name="sex"
+                id="male"
+                value="m"
+            />
+            <label for="male">Male</label>
+
+            <input 
+                type="radio"
+                name="sex"
+                id="female"
+                value="f"
+            />
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <br/>
+            <input 
+                type="text" 
+                placeholder="+91" 
+                minlength="10"
+                maxlength="10"
+                id="phone"
+            />
+            <br/>
+            
+            <label for="email">email:</label>
+            <br/>
+            <input 
+                type="text"
+                id="email"
+                placeholder="email"
+            />
+            
+        </div>
+
+        <div>
+            <label for="add">Current Address:</label>
+            <br/>
+            <textarea 
+                name="add" 
+                id="add"
+                placeholder="Current Address"
+            >
+            </textarea>
+        </div>
+
+        <div>
+            <label for="pw">Password:</label>
+            <br/>
+            <input type="password" placeholder="Password" id="pw">
+            <br/>
+            <label for="re_pw">Re-enter Password:</label>
+            <br/>
+            <input type="password" placeholder="Re-enter Password" id="re_pw">
+
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
