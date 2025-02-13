@@ -1,0 +1,21 @@
+h1, h2{
+    color: #b92b27;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(219, 217, 217);
+}
+/* h2{
+    color: green;
+} */
+#login{
+    background-color: rgb(247, 233, 214);
+}
+#signup{
+    background-color: #b92b27;
+    color: rgb(219, 217, 217);
+}
+.upvote{
+    background-color: #b92b27;
+    color: azure;
+}
