@@ -1,0 +1,13 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #0866ff
+}
+.button{
+    background-color: #0866ff;
+    color: white;
+}
+p{
+    font-size: 12px;
+}
