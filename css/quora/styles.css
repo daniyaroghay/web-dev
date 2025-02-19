@@ -1,21 +1,73 @@
+/* Element selector */
 h1, h2{
     color: #b92b27;
 }
+/* Universal selector */
 *{
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(219, 217, 217);
 }
+
 /* h2{
     color: green;
 } */
-#login{
+
+ /* Id selector */
+/* #login{
     background-color: rgb(247, 233, 214);
-}
-#signup{
+} */
+/* #signup{
     background-color: #b92b27;
     color: rgb(219, 217, 217);
-}
+} */
+
+/* Class selector */
 .upvote{
     background-color: #b92b27;
     color: azure;
+}
+.post{
+    color: rgb(164, 43, 175);
+}
+/* /Descendant selector */
+p a{
+    color: rgb(117, 41, 189);
+}
+nav ul li a{
+    color: #b92b27;
+}
+/* Adjacent sibling selector */
+p + h2{
+    text-decoration: underline;
+}
+/* Child selector */
+div>input{
+    background-color: rgb(226, 195, 183);
+}
+input[type="text"] {
+    color: rgb(49, 6, 90);
+}
+input[type="password"] {
+    color: rgb(126, 11, 55);
+}
+button:hover{
+    background-color: blueviolet;
+    color: rgb(225, 194, 253);
+}
+button:active{
+    background-color: #f08985;
+    color: #b92b27;
+}
+input[type=radio]:checked + label{
+    color: blueviolet;
+    font-weight: bolder;
+}
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    font-weight: bolder;
+}
+p::selection{
+    background-color: #f08985;
 }
