@@ -1,0 +1,21 @@
+/* div{
+    background-color: rgb(193, 180, 206)
+}
+p{
+    background-color: rgb(180, 184, 247);
+} */
+ div{
+    background-color: #f1d8c4;
+ }
+ form{
+    background-color: rgb(239, 241, 99);
+ }
+ input{
+    background-color: inherit;
+ }
+ button{
+    background-color: inherit;
+ }
+ button:hover{
+    background-color: #f5947c;
+ }
